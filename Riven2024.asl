@@ -8,7 +8,7 @@ state("Riven-Win64-Shipping", "1.0.0(e3549-p25334)")
 	// 1 = game paused & loading
 	// 256 = game running
 	// 257 = game running & loading
-	//int playState : "Riven-Win64-Shipping.exe", 0x07CBC790, 0x1e0, 0xb34;
+	int playState : "Riven-Win64-Shipping.exe", 0x07CB9790, 0x1e0, 0xb24;
 }
 
 state("Riven-Win64-Shipping", "1.1.0(e3585-p25462)")
